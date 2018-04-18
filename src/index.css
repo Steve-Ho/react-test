@@ -1,0 +1,27 @@
+@font-face {
+    font-family: '34219E_2_0';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/34219E_2_0.eot?iefix') format('embedded-opentype'),
+         url('./fonts/34219E_2_0.ttf') format('truetype'),
+         url('./fonts/34219E_2_0.woff') format('woff'),
+         url('./fonts/34219E_2_0.woff2') format('woff2')
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+html, body, #root {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: '34219E_2_0';
+}
+

@@ -1,0 +1,14 @@
+.gallery {
+    position: absolute;
+    bottom: 0;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .gallery {
+        bottom:27%;
+    }
+}

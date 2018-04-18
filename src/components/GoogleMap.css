@@ -1,0 +1,14 @@
+.map {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding-left:25%;
+    margin: 7% auto;
+}
+  
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .map {
+        margin: 40% auto;
+        padding-left:17%;
+    }
+}
