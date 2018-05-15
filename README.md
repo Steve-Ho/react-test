@@ -21,3 +21,8 @@ Used SuperAgent, a light-weight progressive ajax API, to get images/data from In
 ### Usage
 
 `npm start`
+
+### TO-DO
+
+* Responsive
+* Add functionalities
