@@ -13,10 +13,12 @@ class Instagram extends React.Component {
     componentWillMount() {
         this.fetchPhotos();
     }
+    
 
     fetchPhotos() {
+        const instaApi = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=7487432591.1677ed0.d773a92d47b544abaa162c47512b38b0';
         request
-            .get('https://api.instagram.com/v1/users/self/media/recent/?access_token=7487432591.1677ed0.d773a92d47b544abaa162c47512b38b0')
+            .get(instaApi)
             .then((res) => {
                 this.setState({
                     photos: res.body.data
