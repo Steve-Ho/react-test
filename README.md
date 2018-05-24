@@ -16,6 +16,8 @@ Used SuperAgent, a light-weight progressive ajax API, to get images/data from In
 
 ### Install
 
+`git clone https://github.com/Steve-Ho/react-test.git`
+
 `npm install` or `yarn install`
 
 ### Usage
